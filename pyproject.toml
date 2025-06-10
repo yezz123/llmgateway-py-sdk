@@ -78,10 +78,10 @@ extra = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yezz123/llmgateway"
+Homepage = "https://github.com/yezz123/llmgateway-py-sdk"
 Documentation = "https://docs.llmgateway.io/"
 Funding = 'https://github.com/sponsors/yezz123'
-Source = 'https://github.com/yezz123/llmgateway'
+Source = 'https://github.com/yezz123/llmgateway-py-sdk'
 
 [tool.hatch.version]
 path = "llmgateway/__init__.py"
