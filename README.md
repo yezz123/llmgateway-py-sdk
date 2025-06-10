@@ -8,13 +8,13 @@ A Python SDK for interacting with the LLMGateway API.
 
 ```bash
 # using pip
-pip install llmgateway-py-sdk
+pip install llmgateway-sdk
 
 # using uv
-uv pip install llmgateway-py-sdk
+uv pip install llmgateway-sdk
 
 # using poetry
-poetry add llmgateway-py-sdk
+poetry add llmgateway-sdk
 ```
 
 ## Usage
