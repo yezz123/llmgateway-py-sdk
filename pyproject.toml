@@ -86,6 +86,9 @@ Source = 'https://github.com/yezz123/llmgateway'
 [tool.hatch.version]
 path = "llmgateway/__init__.py"
 
+[tool.hatch.build.targets.wheel]
+packages = ["llmgateway"]
+
 [tool.hatch.build.targets.sdist]
 # limit which files are included in the sdist (.tar.gz) asset,
 # to exclude unnecessary files and directories from the distribution
