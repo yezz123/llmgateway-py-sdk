@@ -4,6 +4,15 @@
 
 A Python SDK for interacting with the LLMGateway API.
 
+---
+
+| Project | Status                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CI      | [![ CI ](https://github.com/yezz123/llmgateway-py-sdk/actions/workflows/ci.yaml/badge.svg)](https://github.com/yezz123/llmgateway-py-sdk/actions/workflows/ci.yaml) [![ Pre-commit ](https://github.com/yezz123/llmgateway-py-sdk/actions/workflows/pre-commit.yaml/badge.svg)](https://github.com/yezz123/llmgateway-py-sdk/actions/workflows/pre-commit.yaml) [![ Codecov ](https://codecov.io/gh/yezz123/llmgateway-py-sdk/branch/main/graph/badge.svg)](https://codecov.io/gh/yezz123/llmgateway-py-sdk)                                                                                   |
+| Meta    | [![ Package version ](https://img.shields.io/pypi/v/llmgateway-sdk?color=%2334D058&label=pypi%20package)](https://pypi.org/project/llmgateway-sdk) [![ Pydantic Version 2 ](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydantic/pydantic/main/docs/badge/v2.json)](https://pydantic.dev) [![ Ruff ](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) |
+
+---
+
 ## Installation
 
 ```bash
