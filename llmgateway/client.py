@@ -70,7 +70,7 @@ class LLMGatewayClient:
             Dict containing health check information
         """
         response = self._client.get("/")
-        _ = response.raise_for_status()  # type: ignore
+        _ = response.raise_for_status()
         return response.json()
 
     async def ahealth_check(self) -> dict[str, Any]:
@@ -98,7 +98,7 @@ class LLMGatewayClient:
             "/v1/chat/completions",
             json=request.model_dump(exclude_none=True),
         )
-        _ = response.raise_for_status()  # type: ignore
+        _ = response.raise_for_status()
         return ChatCompletionResponse(**response.json())
 
     async def achat_completions(
@@ -126,7 +126,7 @@ class LLMGatewayClient:
             "/v1/chat/completions",
             json=request.model_dump(exclude_none=True),
         ) as response:
-            _ = response.raise_for_status()  # type: ignore
+            _ = response.raise_for_status()
             for line in response.iter_lines():
                 if line:
                     if isinstance(line, bytes):
@@ -159,7 +159,7 @@ class LLMGatewayClient:
             ModelList containing available models
         """
         response = self._client.get("/v1/models")
-        _ = response.raise_for_status()  # type: ignore
+        _ = response.raise_for_status()
         return ModelList(**response.json())
 
     async def alist_models(self) -> ModelList:
