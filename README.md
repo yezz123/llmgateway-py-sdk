@@ -1,6 +1,6 @@
 # LLMGateway Python SDK
 
-![LLMGateway Logo](https://github.com/theopenco/llmgateway/blob/main/apps/ui/static/opengraph.png?raw=true)
+![LLMGateway Logo](https://github.com/theopenco/llmgateway/blob/main/apps/ui/public/opengraph.png?raw=true)
 
 A Python SDK for interacting with the LLMGateway API.
 
